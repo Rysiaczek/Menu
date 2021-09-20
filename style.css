@@ -1,0 +1,252 @@
+*{
+    margin: 0%;
+}
+#top-footer{
+    width: 100%;
+    position: relative;
+}
+#top-border{
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    background-color: white;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 2% 4%;
+}
+#nav-panel{
+    flex: 1;
+    text-align: center;
+
+}
+nav ul li{
+    display: inline-block; 
+    text-align: center;
+    padding-right: 10%;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+#tlo-menu{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url('grafika/menutlo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#tlo-menu h1{
+    padding-top: 13%;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+}
+#wstep{
+    width: 100%;
+    height: 70vh;
+}
+.box{
+    display: inline-block;
+    width: 20%;
+    height: 40vh;
+    margin-top: 4%;
+    text-align: center;
+}
+.box h2{
+    padding-top: 5%;
+    font-size: 45px;
+}
+.box h2 a{
+    text-decoration: none;
+    color: black;
+}
+#box1{
+    margin-left: 19%;
+
+}
+#grafika1{
+    border: 1px solid #fff;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 500px;
+    background-image:url('grafika/ryba.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+#grafika2{
+    border: 1px solid #fff;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 500px;
+    background-image:url('grafika/ciastka.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#grafika3{
+    border: 1px solid #fff;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 500px;
+    background-image:url('grafika/napoje.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#box3{
+    margin-right: 19%;
+}
+#grafika1{
+    border: 1px solid #fff;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 500px;
+
+}
+#main-content{
+    width: 100%;
+    height: 100vh;
+}
+#tlo-daniaG{
+    width: 100%;
+    height: 35vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url('grafika/duck.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10%;
+}
+#tlo-daniaG h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 8%;
+}
+#menu-dania{
+    width: 100%;
+}
+#menu-dania table{
+    padding-left: 20%;
+    font-size: 25px;
+}
+#menu-dania table tr td a{
+    font-size: 20px;
+}
+#menu-dania table tr td input{
+    width: 5%;
+}
+.td1{
+    padding-right: 600px;
+    padding-top: 20px;
+}.td2{
+    padding-right: 60px;
+}
+#tlo-desery{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 35vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url('grafika/deser.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#tlo-desery h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 8%;
+}
+#menu-desery{
+    width: 100%;
+}
+#menu-desery table{
+    padding-left: 20%;
+    font-size: 25px;
+}
+#menu-desery table tr td a{
+    font-size: 20px;
+}
+#menu-desery table tr td input{
+    width: 5%;
+}
+.td1{
+    padding-right: 600px;
+    padding-top: 20px;
+}.td2{
+    padding-right: 60px;
+}
+#tlo-napoje{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 100%;
+    height: 35vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url('grafika/drinki.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#tlo-napoje h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 8%;
+}
+#menu-napoje{
+    width: 100%;
+}
+#menu-napoje table{
+    padding-left: 20%;
+    font-size: 25px;
+}
+#menu-napoje table tr td a{
+    font-size: 20px;
+}
+#menu-napoje table tr td input{
+    width: 5%;
+}
+.td1{
+    padding-right: 600px;
+    padding-top: 20px;
+}.td2{
+    padding-right: 60px;
+}
+
+#end{
+    width: 100%;
+    height: 30vh;
+}
+#end input{
+    margin-top: 10%;
+    margin-left: 45%;
+    width: 10%;
+    height: 72px;
+}
+#content{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#tabela{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+#tabela table tr td{
+    padding-right: 50px;
+    padding-top: 10px;
+}
+#content input{
+    margin-top: 10%;
+    margin-left: 40%;
+}
+#content h1{
+    margin-top: 5%;
+    text-align: center;
+}
